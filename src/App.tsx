@@ -1,4 +1,3 @@
-import React from 'react'
 import './App.css'
 import peetImage from './assets/peet-the-handyman.jpeg'
 import { Box, Link, Typography } from '@mui/material'

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 
 type FitTextProps = {
-  children: React.ReactElement
+  children: React.ReactElement<React.HTMLAttributes<HTMLElement>>
   maxFontSize?: number
   minFontSize?: number
 }
