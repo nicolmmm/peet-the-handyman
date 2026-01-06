@@ -10,7 +10,7 @@ export default function App() {
 
   return (
     <>
-    <Box width={"25rem"}>
+      <Box sx={{ width: '100%', maxWidth: '25rem', margin: '0 auto', padding: '0 1rem' }}>
         <Box sx={{my: "2rem"}}>
           <FitText>
             <Typography sx={regularFontStyle}>Peet The Handyman</Typography>
