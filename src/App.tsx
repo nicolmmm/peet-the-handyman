@@ -10,8 +10,19 @@ export default function App() {
 
   return (
     <>
-      <Box sx={{ width: '100%', maxWidth: '25rem', margin: '0 auto', padding: '0 1rem' }}>
-        <Box sx={{my: "2rem"}}>
+      <Box 
+        sx={{ 
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'space-between',
+          width: '100%', 
+          maxWidth: '25rem', 
+          margin: '0 auto', 
+          padding: '0 1rem',
+          minHeight: '100vh'
+        }}
+      >
+        <Box sx={{my: "10%"}}>
           <FitText>
             <Typography sx={regularFontStyle}>Peet The Handyman</Typography>
           </FitText>
